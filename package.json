@@ -1,5 +1,5 @@
 {
-  "name": "project-gen",
+  "name": "frontend-gen",
   "version": "1.0.0",
   "type": "module",
   "description": "Quickly set up a new index.html + style.css + main.js project.",
@@ -15,6 +15,10 @@
     "css",
     "js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MelvDouc/project-gen.git"
+  },
   "author": "Melvin DOUCET",
   "license": "ISC",
   "dependencies": {
