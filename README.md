@@ -5,7 +5,7 @@
 Creates a new folder in the current directory containing:
 - an `index.html` file with the usual boilerplate,
 - an `assets` folder containing:
-  - a `css/style.css` file with a few style reset rules,
+  - a `css/style.css` file with (optionally) a few style reset rules,
   - an empty `js/main.js` file.
 
 ## Installation
@@ -27,3 +27,4 @@ Or:
 ```
 project-gen -n minesweeper-tutorial
 ```
+- Add either of these flags to include some CSS boilerplate: `-cb`, `--css-boilerplate`.
