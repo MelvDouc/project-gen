@@ -1,4 +1,4 @@
-# PROJECT GENERATOR
+# frontend-gen
 
 ## Description
 
