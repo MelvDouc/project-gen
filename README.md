@@ -19,5 +19,5 @@ project-gen --name minesweeper-tutorial
 ```
 Or:
 ```
-project-gen --n minesweeper-tutorial
+project-gen -n minesweeper-tutorial
 ```
