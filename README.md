@@ -15,16 +15,13 @@ npm i -g frontend-gen
 ```
 
 ## Usage
-- Create a new folder named "new-project":
 ```
-project-gen
+frontend-gen myAwesomeProject
 ```
-- Create a new folder named "minesweeper-tutorial":
-```
-project-gen --name minesweeper-tutorial
-```
-Or:
-```
-project-gen -n minesweeper-tutorial
-```
-- Add either of these flags to include some CSS boilerplate: `-cb`, `--css-boilerplate`.
+### Flags
+* -cb, --css-boilerplate
+  * Include style reset boilerplate.
+* -h, --help
+  * List of flags and description.
+* -v, --version
+  * Current version.

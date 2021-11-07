@@ -1,6 +1,5 @@
 import { join as pathJoin, resolve as pathResolve } from "path";
 import { mkdirSync, writeFileSync } from "fs";
-import chalk from "chalk";
 export default class ProjectGenerator {
     constructor(projectName, hasCSSboilterplate) {
         this.ROOT_PATH = pathResolve(".");
@@ -62,6 +61,5 @@ body {
         this.createSubdirectoryAndFile("", "index.html", this.HTML_contents);
         this.createSubdirectoryAndFile(pathJoin("assets", "css"), "style.css", CSS_contents);
         this.createSubdirectoryAndFile(pathJoin("assets", "js"), "main.js");
-        console.log(`A new project folder with the name ${chalk.green(this.projectName)} was created.`);
     }
 }
