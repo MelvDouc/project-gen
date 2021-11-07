@@ -1,6 +1,6 @@
 {
   "name": "frontend-gen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "description": "Quickly set up a new index.html + style.css + main.js project.",
   "main": "./dist/index.js",
