@@ -1,0 +1,31 @@
+{
+  "name": "project-gen",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Quickly set up a new index.html + style.css + main.js project.",
+  "main": "./dist/index.js",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "project",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Melvin DOUCET",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.11.6"
+  }
+}
