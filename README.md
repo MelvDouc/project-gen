@@ -8,6 +8,12 @@ Creates a new folder in the current directory containing:
   - a `css/style.css` file with a few style reset rules,
   - an empty `js/main.js` file.
 
+## Installation
+
+```
+npm i -g frontend-gen
+```
+
 ## Usage
 - Create a new folder named "new-project":
 ```
